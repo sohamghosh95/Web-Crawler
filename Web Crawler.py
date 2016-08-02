@@ -68,28 +68,28 @@ def application_layout():
     global root
     root = Tk()
     root.iconbitmap(default='ico.ico')
-    root.config(height=425, width=630)
+    root.config(height=425, width=800)
     root.title('WC : TV Series & Movies')
-    # root.resizable(False, False)
+    root.resizable(False, True)
 
     global value,output
     value= StringVar()
 
-    ttk.Label(root,font=("Minion Pro", 18),text='Search for latest TV Series & Movies').place(x=140, y=20)
+    ttk.Label(root,font=("Minion Pro", 18),text='Search for latest TV Series & Movies').place(x=210, y=20)
 
-    entrybox=ttk.Entry(root, width=70, textvariable=value)
+    entrybox=ttk.Entry(root, width=100, textvariable=value)
     entrybox.focus()
     entrybox.bind("<Return>", pass_value)
     entrybox.place(x=50, y=80)
 
     buttonSearch = ttk.Button(root,width=15, text='Search',command=pass_value)
-    buttonSearch.place(y=78,x=480)
+    buttonSearch.place(y=78,x=680)
 
     output=Listbox(root,width=615,height=1000)
     output.place(x=-2,y=150)
     output.bind("<<ListboxSelect>>", clickCopy)
     output.insert(END, " ")
-    output.insert(END, "                                                                       Crawling the web may take some time")
+    output.insert(END, "                                                                                               Crawling the web may take some time")
 
     root.mainloop()
 
