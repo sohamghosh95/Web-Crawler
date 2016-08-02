@@ -1,6 +1,8 @@
 # Web-Crawler
 Web Crawler for TV Series &amp; Movies
 
+Technologies used : Python, BeautifulSoup Lib & tkinter Lib
+
 The Application crawls the web for recent TV Series and Movies available and generates a magnet link.
 The link can then be copied to a torrent client like Bittorrent or website such as seedr.cc to download the file.
 
