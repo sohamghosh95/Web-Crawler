@@ -9,3 +9,6 @@ The link can then be copied to a torrent client like Bittorrent or website such 
 This application is independent of torrent websites, so even if the college administration has closed the torrent websites or some TV series is not yet uploaded in the website this application can come for rescue.
 
 All content parsed are in highest quality available : 720p or 1080p.
+
+Download link : https://drive.google.com/open?id=0BxSPoIcB-jqZM0xCTExIODhTZUk
+Project video : https://youtu.be/wnyqz7IlAIU
